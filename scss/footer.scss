@@ -1,0 +1,48 @@
+/*
+Elempleo vip with sass and bootstrap
+Author: Activa MC
+Version: 0.0.1
+*/
+
+/* BASE STYLES */
+
+@import 'base/_normalize.scss';
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_base.scss';
+
+/* MODULES STYLES - individual site components */
+
+@import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_components.scss';
+@import 'modules/_sections.scss';
+@import 'modules/_typography.scss';
+
+/* start footer styles */
+
+   .main-footer{
+
+      .first-level-footer{
+         background-color : $base-footer-bg;
+         padding-top      : 40px;
+         padding-bottom   : 30px;
+
+         .content-brand-footer{
+            margin-bottom: 10px;
+            .brand-ee-footer{
+               width: 150px;
+            }
+         }
+
+      }
+
+      .second-level-footer{
+         background-color: $second-footer-bg;
+      }
+
+      .third-level-footer{
+         background-color:$base-color;
+      }
+
+   }

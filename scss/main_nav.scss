@@ -1,0 +1,95 @@
+/*
+Elempleo vip with sass and bootstrap
+Author: Activa MC
+Version: 0.0.1
+*/
+
+/* BASE STYLES */
+
+@import 'base/_normalize.scss';
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_base.scss';
+
+/* MODULES STYLES - individual site components */
+
+@import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_components.scss';
+@import 'modules/_sections.scss';
+@import 'modules/_typography.scss';
+
+/* start code for main nav section */
+
+      .navbar-default{
+         background-color: $menu-bg;
+         .navbar-nav > li > a{
+            font-weight: $light;
+            color: $base-color;
+            letter-spacing: 0.5px;
+            padding: 15px 25px;
+         }
+      }
+
+      .navbar-nav > .main-nav:first-child a:after,
+      .navbar-nav > .main-nav:last-child a:after{
+         border-left: none;
+      }
+
+      .navbar-nav .active a:after,
+      .navbar-nav a:hover:after {
+         border: none;
+      }
+
+      .navbar-nav > li.main-nav > a:after{
+         position: absolute;
+         top: 13px;
+         height: 25px;
+         border-left: 1px solid rgba(255,255,255,1/2);
+         margin-left: 25px;
+         content: '';
+      }
+
+      .navbar-default .navbar-nav > .active > a,
+      .navbar-default .navbar-nav > .active > a:hover,
+      .navbar-default .navbar-nav > .active > a:focus{
+         color: $base-color;
+         background-color: $over-item-menu;
+      }
+
+      .navbar-default .navbar-nav > li > a:hover,
+      .navbar-default .navbar-nav > li > a:focus{
+         color: $base-color;
+         background-color: $over-item-menu;
+      }
+
+      .navbar-nav > li > .dropdown-menu{
+         color            : $base-color;
+         background-color : $over-item-menu;
+         border           : none;
+      }
+
+      .dropdown-menu{
+         padding:0;
+
+         li > a {
+          display       : block;
+          padding       : 10px 20px;
+          clear         : both;
+          font-weight   : normal;
+          line-height   : 1.42857143;
+          color         : $base-color;
+          white-space   : nowrap;
+          border-bottom : 1px solid #62b8ef;
+          text-align    : center;
+          font-weight: $light;
+         }
+         li > a:hover{
+            background-color:#014673;
+            color: #62b8ef;
+          }
+
+         li:last-child > a{
+            border-bottom:none;
+         }
+      }

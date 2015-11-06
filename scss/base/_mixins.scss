@@ -1,0 +1,37 @@
+/*==================================================
+=            gradient mixin            =
+==================================================*/
+
+@mixin gradient-vertical ($firstColor, $secondColor) {
+  background  : $firstColor; /* Fallback solid color for old browsers */
+  background  : linear-gradient(to bottom, $firstColor 0%, $secondColor 100%); /* W3C */
+  background  : -moz-linear-gradient(top, $firstColor 0%, $secondColor 100%); /* FF 3.6+ */
+  background  : -ms-linear-gradient(top, $firstColor 0%, $secondColor 100%); /* IE 10+ */
+  background  : -o-linear-gradient(top, $firstColor 0%, $secondColor 100%); /* Opera 11.10+ */
+  background  : -webkit-linear-gradient(top, $firstColor 0%,$secondColor 100%); /* Chrome 10+, Safari 5.1+ */
+  background  : -webkit-gradient(linear, left top, left bottom, color-stop(0%,$firstColor), color-stop(100%,$secondColor)); /* Chrome, Safari 4+ */
+  filter      : progid:DXImageTransform.Microsoft.gradient(startColorstr= '#{$firstColor}', endColorstr= '#{$secondColor}', GradientType=0); /* IE 6-9 */
+}
+
+/*-----  End of gradient mixin   ------*/
+
+@mixin box-shadow     ($x-size, $y-size, $blur, $color, $spread) {
+  box-shadow          : $x-size $y-size $blur $spread $color;
+  -moz-box-shadow     : $x-size $y-size $blur $spread $color;
+  -webkit-box-shadow  : $x-size $y-size $blur $spread $color;
+}
+
+/* mixin border radius */
+
+@mixin border-radius ($radius) {
+  border-radius         : $radius;
+  -moz-border-radius    : $radius;
+  -webkit-border-radius : $radius;
+}
+
+/* mixin text-shadow */
+
+@mixin text-shadow ($x-size, $y-size, $blur, $color){
+  text-shadow: $x-size $y-size $blur $color;
+}
+

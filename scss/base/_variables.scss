@@ -1,0 +1,43 @@
+/* google font import */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500|Kreon);
+
+/*============================================
+=            typography variables            =
+============================================*/
+  // Font styles
+  $primary-font-family   : 'Ubuntu', sans-serif;
+  $secondary-font-family : 'Kreon', serif;
+  $base-font-size        : 16px;
+
+  // Font weights
+  $light     : 300;
+  $regular   : 400;
+  $medium    : 500;
+
+  $blue-txt  : #006cb2;
+  $green-txt : #2bb19e;
+  $grey-txt  : #4d4d4d;
+
+/*=====  End of typography variables  ======*/
+
+/*=======================================
+=            color variables            =
+=======================================*/
+
+   $base-color       : #FFF;
+   /* blue */
+   $menu-bg          : #5396CA;
+   $over-item-menu   : #006cb2;
+   $btn-hv-bg        : #2f5d81;
+
+   /* grey */
+   $header-bg        : #EEEEEE;
+   $btn-login-bg     : #d2d7d9;
+   $base-footer-bg   : #313131;
+   $second-footer-bg : #1b1b1b;
+
+   /* orange */
+   $orange-bg        : #f08302
+
+/*=====  End of color variables  ======*/
+

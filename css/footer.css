@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500|Kreon);
+/*
+Elempleo vip with sass and bootstrap
+Author: Activa MC
+Version: 0.0.1
+*/
+/* BASE STYLES */
+/* google font import */
+/*============================================
+=            typography variables            =
+============================================*/
+/*=====  End of typography variables  ======*/
+/*=======================================
+=            color variables            =
+=======================================*/
+/* blue */
+/* grey */
+/* orange */
+/*==================================================
+=            gradient mixin            =
+==================================================*/
+/*-----  End of gradient mixin   ------*/
+/* mixin border radius */
+/* mixin text-shadow */
+/* line 1, /Users/activa15/Documents/repositories/elempleo/scss/base/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, /Users/activa15/Documents/repositories/elempleo/scss/base/_base.scss */
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+/* line 12, /Users/activa15/Documents/repositories/elempleo/scss/base/_base.scss */
+li {
+  list-style: none;
+}
+
+/* line 16, /Users/activa15/Documents/repositories/elempleo/scss/base/_base.scss */
+i {
+  padding-right: 10px;
+}
+
+/* MODULES STYLES - individual site components */
+/* start footer styles */
+/* line 26, ../scss/footer.scss */
+.main-footer .first-level-footer {
+  background-color: #313131;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+/* line 31, ../scss/footer.scss */
+.main-footer .first-level-footer .content-brand-footer {
+  margin-bottom: 10px;
+}
+/* line 33, ../scss/footer.scss */
+.main-footer .first-level-footer .content-brand-footer .brand-ee-footer {
+  width: 150px;
+}
+/* line 40, ../scss/footer.scss */
+.main-footer .second-level-footer {
+  background-color: #1b1b1b;
+}
+/* line 44, ../scss/footer.scss */
+.main-footer .third-level-footer {
+  background-color: white;
+}

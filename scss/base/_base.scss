@@ -1,0 +1,18 @@
+*{
+   margin  : 0;
+   padding : 0;
+}
+
+body{
+   font-family      : $primary-font-family;
+   font-size        : $base-font-size;
+   background-color : $base-color;
+}
+
+li{
+   list-style: none;
+}
+
+i{
+   padding-right: 10px;
+}

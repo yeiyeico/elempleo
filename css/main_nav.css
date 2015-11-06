@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500|Kreon);
+/*
+Elempleo vip with sass and bootstrap
+Author: Activa MC
+Version: 0.0.1
+*/
+/* BASE STYLES */
+/* google font import */
+/*============================================
+=            typography variables            =
+============================================*/
+/*=====  End of typography variables  ======*/
+/*=======================================
+=            color variables            =
+=======================================*/
+/* blue */
+/* grey */
+/* orange */
+/*==================================================
+=            gradient mixin            =
+==================================================*/
+/*-----  End of gradient mixin   ------*/
+/* mixin border radius */
+/* mixin text-shadow */
+/* line 1, ../scss/base/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../scss/base/_base.scss */
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+/* line 12, ../scss/base/_base.scss */
+li {
+  list-style: none;
+}
+
+/* line 16, ../scss/base/_base.scss */
+i {
+  padding-right: 10px;
+}
+
+/* MODULES STYLES - individual site components */
+/* start code for main nav section */
+/* line 24, ../scss/main_nav.scss */
+.navbar-default {
+  background-color: #5396ca;
+}
+/* line 26, ../scss/main_nav.scss */
+.navbar-default .navbar-nav > li > a {
+  font-weight: 300;
+  color: white;
+  letter-spacing: 0.5px;
+  padding: 15px 25px;
+}
+
+/* line 35, ../scss/main_nav.scss */
+.navbar-nav > .main-nav:first-child a:after,
+.navbar-nav > .main-nav:last-child a:after {
+  border-left: none;
+}
+
+/* line 40, ../scss/main_nav.scss */
+.navbar-nav .active a:after,
+.navbar-nav a:hover:after {
+  border: none;
+}
+
+/* line 44, ../scss/main_nav.scss */
+.navbar-nav > li.main-nav > a:after {
+  position: absolute;
+  top: 13px;
+  height: 25px;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 25px;
+  content: '';
+}
+
+/* line 55, ../scss/main_nav.scss */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #006cb2;
+}
+
+/* line 61, ../scss/main_nav.scss */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  background-color: #006cb2;
+}
+
+/* line 66, ../scss/main_nav.scss */
+.navbar-nav > li > .dropdown-menu {
+  color: white;
+  background-color: #006cb2;
+  border: none;
+}
+
+/* line 72, ../scss/main_nav.scss */
+.dropdown-menu {
+  padding: 0;
+}
+/* line 75, ../scss/main_nav.scss */
+.dropdown-menu li > a {
+  display: block;
+  padding: 10px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: white;
+  white-space: nowrap;
+  border-bottom: 1px solid #62b8ef;
+  text-align: center;
+  font-weight: 300;
+}
+/* line 87, ../scss/main_nav.scss */
+.dropdown-menu li > a:hover {
+  background-color: #014673;
+  color: #62b8ef;
+}
+/* line 92, ../scss/main_nav.scss */
+.dropdown-menu li:last-child > a {
+  border-bottom: none;
+}

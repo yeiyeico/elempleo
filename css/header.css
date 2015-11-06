@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500|Kreon);
+/*
+Elempleo vip with sass and bootstrap
+Author: Activa MC
+Version: 0.0.1
+*/
+/* BASE STYLES */
+/* google font import */
+/*============================================
+=            typography variables            =
+============================================*/
+/*=====  End of typography variables  ======*/
+/*=======================================
+=            color variables            =
+=======================================*/
+/* blue */
+/* grey */
+/* orange */
+/*==================================================
+=            gradient mixin            =
+==================================================*/
+/*-----  End of gradient mixin   ------*/
+/* mixin border radius */
+/* mixin text-shadow */
+/* line 1, ../scss/base/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../scss/base/_base.scss */
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+/* line 12, ../scss/base/_base.scss */
+li {
+  list-style: none;
+}
+
+/* line 16, ../scss/base/_base.scss */
+i {
+  padding-right: 10px;
+}
+
+/* MODULES STYLES - individual site components */
+/* start code for header section */
+/* line 24, ../scss/header.scss */
+.main-header {
+  background-color: #eeeeee;
+  padding: 30px 0 0;
+}
+/* line 28, ../scss/header.scss */
+.main-header .brand-ee {
+  width: 212px;
+}
+/* line 31, ../scss/header.scss */
+.main-header .container-searchBox {
+  padding-left: 15px;
+}
+/* line 34, ../scss/header.scss */
+.main-header .container-searchBox input {
+  width: 320px;
+  height: 40px;
+  font-weight: 300;
+  border: 1px solid #898989;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  display: inline;
+}
+/* line 43, ../scss/header.scss */
+.main-header .container-searchBox button.search {
+  height: 39px;
+  width: 39px;
+  padding: 0;
+}
+/* line 48, ../scss/header.scss */
+.main-header .container-searchBox button.search i {
+  font-size: 1.063em;
+}
+/* line 53, ../scss/header.scss */
+.main-header .container-searchBox a {
+  margin-top: 10px;
+  display: block;
+  font-size: 0.875em;
+  font-weight: 500;
+}
+/* line 62, ../scss/header.scss */
+.main-header .btn-empresa a {
+  font-weight: 500;
+}
+/* line 64, ../scss/header.scss */
+.main-header .btn-empresa a i {
+  padding-right: 20px;
+}
+/* line 70, ../scss/header.scss */
+.main-header .btn-login {
+  padding-left: 30px;
+}
+/* line 72, ../scss/header.scss */
+.main-header .btn-login a {
+  display: block;
+  width: 135px;
+  padding: 10px 10px;
+  font-weight: 300;
+  color: #4d4d4d;
+  background-color: #d2d7d9;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+/* line 80, ../scss/header.scss */
+.main-header .btn-login a i {
+  padding-right: 5px;
+}
