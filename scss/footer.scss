@@ -154,10 +154,48 @@ Version: 0.0.1
 
       .second-level-footer{
          background-color: $second-footer-bg;
+         padding: 30px 0 15px;
+         
+         .btn-outline{
+            color: $base-color;
+            border: 1px solid $base-color;
+         }
+
+         .txt-copyright{
+            color: $base-color;
+            font-size: 0.688em;
+            a{
+               color: $green-txt;
+            }
+         }
+
+         #collapsePortales{
+            padding: 25px 0 20px;
+            li{
+               padding: 10px 0;
+               a{
+                  color: $base-color;
+                  font-size: 0.875em;
+                  span{
+                     font-weight: $light;
+                  }
+               }
+            }
+         }
       }
 
       .third-level-footer{
          background-color:$base-color;
+         padding: 30px 0 10px;
+         p{
+            font-family: 'Arial', sans-serif;
+            font-size: 0.625em;
+            padding-left: 80px;
+            a{
+               color: #0019ff;
+               text-decoration: underline;
+            }
+         }
       }
 
    }

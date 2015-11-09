@@ -187,8 +187,52 @@ i {
 /* line 155, ../scss/footer.scss */
 .main-footer .second-level-footer {
   background-color: #1b1b1b;
+  padding: 30px 0 15px;
 }
 /* line 159, ../scss/footer.scss */
+.main-footer .second-level-footer .btn-outline {
+  color: white;
+  border: 1px solid white;
+}
+/* line 164, ../scss/footer.scss */
+.main-footer .second-level-footer .txt-copyright {
+  color: white;
+  font-size: 0.688em;
+}
+/* line 167, ../scss/footer.scss */
+.main-footer .second-level-footer .txt-copyright a {
+  color: #2bb19e;
+}
+/* line 172, ../scss/footer.scss */
+.main-footer .second-level-footer #collapsePortales {
+  padding: 25px 0 20px;
+}
+/* line 174, ../scss/footer.scss */
+.main-footer .second-level-footer #collapsePortales li {
+  padding: 10px 0;
+}
+/* line 176, ../scss/footer.scss */
+.main-footer .second-level-footer #collapsePortales li a {
+  color: white;
+  font-size: 0.875em;
+}
+/* line 179, ../scss/footer.scss */
+.main-footer .second-level-footer #collapsePortales li a span {
+  font-weight: 300;
+}
+/* line 187, ../scss/footer.scss */
 .main-footer .third-level-footer {
   background-color: white;
+  padding: 30px 0 10px;
+}
+/* line 190, ../scss/footer.scss */
+.main-footer .third-level-footer p {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.625em;
+  padding-left: 80px;
+}
+/* line 194, ../scss/footer.scss */
+.main-footer .third-level-footer p a {
+  color: #0019ff;
+  text-decoration: underline;
 }
