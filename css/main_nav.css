@@ -45,6 +45,58 @@ i {
   padding-right: 10px;
 }
 
+/*==========================================
+=            elempleovip styles            =
+==========================================*/
+/* line 25, ../scss/base/_base.scss */
+#elempleovip .header-vipsection .breadcrumb-vip {
+  padding: 10px 0;
+}
+/* line 27, ../scss/base/_base.scss */
+#elempleovip .header-vipsection .breadcrumb-vip li {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 0.750em;
+}
+/* line 31, ../scss/base/_base.scss */
+#elempleovip .header-vipsection .breadcrumb-vip li a {
+  color: #006cb2;
+}
+/* line 35, ../scss/base/_base.scss */
+#elempleovip .header-vipsection .breadcrumb-vip li.active {
+  color: #2bb19e;
+}
+/* line 37, ../scss/base/_base.scss */
+#elempleovip .header-vipsection .breadcrumb-vip li.active:before {
+  content: "» ";
+  color: #006cb2;
+  padding: 0 5px;
+}
+/* line 44, ../scss/base/_base.scss */
+#elempleovip .header-vipsection h2 {
+  font-family: "Kreon", serif;
+  font-size: 1.563em;
+  color: #1d1d1d;
+}
+/* line 49, ../scss/base/_base.scss */
+#elempleovip .header-vipsection .principal-banner-vip {
+  background-image: url("../images/banner_vip.jpg");
+  background-repeat: none;
+  background-size: cover;
+  height: 355px;
+}
+/* line 56, ../scss/base/_base.scss */
+#elempleovip article {
+  border-bottom: 1px solid #eeeeee;
+  padding: 50px 0;
+}
+/* line 61, ../scss/base/_base.scss */
+#elempleovip .first-line-vip .txt-section {
+  padding: 10px 30px;
+  font-size: 1.125em;
+}
+
+/*=====  End of elempleovip styles  ======*/
 /* MODULES STYLES - individual site components */
 /* start code for main nav section */
 /* line 24, ../scss/main_nav.scss */

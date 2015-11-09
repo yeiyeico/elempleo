@@ -16,3 +16,54 @@ li{
 i{
    padding-right: 10px;
 }
+
+/*==========================================
+=            elempleovip styles            =
+==========================================*/
+   #elempleovip{
+      .header-vipsection{
+         .breadcrumb-vip{
+            padding:10px 0;
+            li{
+               display: inline-block;
+               font-weight: $medium;
+               font-size: 0.750em;
+               a{
+                  color: $blue-txt;
+               }
+            }
+            li.active{
+               color: $green-txt;
+               &:before{
+                  content: "» ";
+                  color: $blue-txt;
+                  padding:0 5px;
+               }
+            }
+         }
+         h2{
+            font-family : $secondary-font-family;
+            font-size   : 1.563em;
+            color       : $darkgrey-txt;
+         }
+         .principal-banner-vip{
+            background-image: url('../images/banner_vip.jpg');
+            background-repeat:none;
+            background-size: cover;
+            height: 355px;
+         }
+      }
+      article{
+         border-bottom:1px solid #eeeeee;
+         padding:50px 0;
+      }
+      .first-line-vip{
+         .txt-section{
+            padding:10px 30px;
+            font-size: 1.125em;
+         }
+      }
+   }
+
+
+/*=====  End of elempleovip styles  ======*/
