@@ -149,7 +149,6 @@ Version: 0.0.1
                }
             }
          }
-
       }
 
       .second-level-footer{
@@ -166,6 +165,13 @@ Version: 0.0.1
             font-size: 0.688em;
             a{
                color: $green-txt;
+            }
+         }
+         a.terms-conditions{
+            color: $green-txt;
+            font-size: 0.875em;
+            i{
+               color: #999999;
             }
          }
 
